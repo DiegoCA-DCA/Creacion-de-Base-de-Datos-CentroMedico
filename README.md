@@ -15,6 +15,10 @@ Base de datos relacional en **SQL Server** para gestión de un centro médico.
 ## Archivos
 - `01_crear_tablas.sql` → Creación de tablas
 - `02_insertar_datos.sql` → Inserts completos
+  
+## Diagrama Entidad-Relación
+
+![Diagrama ER](Diagrama_erd.png)
 
 ## Cómo ejecutar
 1. Ejecuta `01_crear_tablas.sql`
