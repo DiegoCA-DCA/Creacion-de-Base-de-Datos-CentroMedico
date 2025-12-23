@@ -1,32 +1,26 @@
-# Creacion-de-Base-de-Datos-CentroMedico
-Es una base de datos simulando un Centro Medico
 # Base de Datos Centro Médico 🏥
 
-Proyecto portfolio para posición **Data Analyst Junior / BI Analyst**.
+Proyecto portfolio - **Data Analyst Junior**
 
 ## Descripción
-Base de datos relacional en **SQL Server** que simula la gestión completa de un centro médico.
+Base de datos relacional en **SQL Server** para gestión de un centro médico.
 
-**Características principales**:
-- 10 tablas con relaciones PK/FK bien definidas (Paciente, Médico, Especialidad, HistoriaClinica, Turno, Pago, País, etc.).
-- 60 pacientes con datos ficticios consistentes (DNI, domicilio, teléfono, país).
-- Historias clínicas con fechas en 2025 y observaciones médicas realistas (hasta 60 caracteres).
-- Turnos, pagos y asociaciones médico-paciente.
-- Consultas: JOINs múltiples, subconsultas, agregaciones y filtros.
+**Características**:
+- 10+ tablas con PK/FK e IDENTITY
+- 60 pacientes con datos realistas
+- 31 médicos con especialidades
+- Historias clínicas, turnos y pagos
+- Nivel SQL: **Intermedio**
 
+## Archivos
+- `01_crear_tablas.sql` → Creación de tablas
+- `02_insertar_datos.sql` → Inserts completos
 
-## Tecnologías
-- SQL Server
-- SQL Server Management Studio (SSMS)
+## Cómo ejecutar
+1. Ejecuta `01_crear_tablas.sql`
+2. Ejecuta `02_insertar_datos.sql`
 
-## Estructura de archivos
-- `01_create_tables.sql` → Creación de tablas y restricciones
-- `02_insert_data.sql` → Inserción de datos (pacientes, médicos, historias, etc.)
-- `03_queries_ejemplo.sql` → Consultas prácticas y análisis
-- `ERD.png` → Diagrama entidad-relación
-
-## Cómo ejecutar localmente
-1. Abre SSMS y crea una base de datos nueva:  
-   ```sql
-   CREATE DATABASE CentroMedico;
-   USE CentroMedico;
+## Autor
+Diego Castillo
+México 
+Buscando oportunidades junior Data Analyst 🚀
